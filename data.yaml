@@ -1,0 +1,5 @@
+train: ../dataTrainingV2/images  # Caminho para as imagens de treino
+val: ../dataTrainingV2/images  # Pode usar o mesmo caminho se não tiver um conjunto de validação separado
+
+nc: 1  # Número de classes (no seu caso, apenas "matricula")
+names: ['matricula']  # Nome da classe
