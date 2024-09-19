@@ -1,4 +1,4 @@
-# Car Plate Detection Using YOLOv5 🚘
+# License Plate Detection Using YOLOv5 🚘
 
 This project aims to develop a model capable of accurately detecting Portuguese vehicle license plates using the YOLOv5 object detection architecture. The model was trained on manually labeled images, where license plate regions were segmented and annotated.
 
@@ -41,5 +41,5 @@ After training, the model was validated on a test set of images, achieving accur
 
     ```bash
     cd yolov5
-    python detect.py --weights runs/train/plate_detector/weights/best.pt --img 640 --conf 0.20 --source ../pics
+    python detect.py --weights ../best.pt --img 640 --conf 0.20 --source ../pics
     ```
